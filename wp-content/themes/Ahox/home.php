@@ -152,7 +152,7 @@
                                     data-rel="prettyPhoto">
                                     <i class="icon-search"></i>
                                     </a> 
-                                    <a title ="View Post" href="<?php the_permalink(); ?>"><i class="icon-paper-clip"></i></a>
+                                    <!-- a title ="View Post" href="<?php the_permalink(); ?>"><i class="icon-paper-clip"></i></a -->
                                 </div><!--/.mask-inner-->
                             </div><!--/.mask-post-->
                         </div><!--/.post-image-->
