@@ -1162,6 +1162,7 @@ blockquote p {
 .menu-btn{width:30px;height:30px;display:none;}
 /*-----------------------------media queries-----------------------------------*/
 @media (min-width:980px) and (max-width:1199px) {
+		.logo-inner{display: none;}
 }
 @media (min-width:768px) and (max-width:979px) {
 }
@@ -1228,7 +1229,6 @@ blockquote p {
 }
 }
 @media (max-width:480px) {
-	.logo-inner{display: none;}
 .author-info{padding:30px;}
 .border-logo{display:none;}
 .logo-inner p {
