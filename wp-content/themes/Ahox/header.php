@@ -43,7 +43,7 @@
      	<div class="container menu">
         	<div class="row">
                 <div class="span8 menu-inner">
-                <img src="/wp-content/uploads/2013/10/bh-logo.png" class="logo_dt">
+                <img src="/wp-content/uploads/2013/10/bh-logo.png" class="logo_dt" title="Beach House">
 					<?php wp_nav_menu( array( 'items_wrap' => '<ul id="%1$s" class="nav-collapse %2$s">%3$s</ul>', 'theme_location' => 'header-menu' ) ); ?>
                 </div><!--/.menu-inner-->
                 <div class="social-icon span4">
