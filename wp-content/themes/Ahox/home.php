@@ -148,11 +148,11 @@
 							<?php the_post_thumbnail(); ?>
                             <div class="mask-post">
                                 <div class="mask-inner">
-                                    <a title ="<?php the_title (); ?>" href="<?php $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full', false, ''); echo $src[0]; ?>" 
+                                    <!-- a title ="<?php the_title (); ?>" href="<?php $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full', false, ''); echo $src[0]; ?>" 
                                     data-rel="prettyPhoto">
-                                    <i class="icon-search"></i>
-                                    </a> 
-                                    <!-- a title ="View Post" href="<?php the_permalink(); ?>"><i class="icon-paper-clip"></i></a -->
+                                    <i class="icon-search"></i> <i class="icon-paper-clip"></i>
+                                    </a --> 
+                                    <a title ="View Post" href="<?php the_permalink(); ?>"><i class="icon-search"></i></a>
                                 </div><!--/.mask-inner-->
                             </div><!--/.mask-post-->
                         </div><!--/.post-image-->
