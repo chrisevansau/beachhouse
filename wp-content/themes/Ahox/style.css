@@ -1247,10 +1247,10 @@ code{
 }
 
 /*---------- Style to control the beach house logo  ----------*/
-@media (min-width:980px) {
+@media (min-width:1000px) {
 		.logo-inner{display: none;}
 }
-@media (max-width:980px) {
+@media (max-width:1000px) {
 		.logo_dt{display: none;}
 }
 .logo_dt{
